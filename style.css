@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Barlow Semi Condensed, sans-serif;
+}
+body {
+  background-color: #ecf2f8;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:2rem ; 
+}
+
+.text-container {
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 2rem;
+  width: 1120px;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 3rem;
+ 
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.icon img {
+  width: 1.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.icon-heading {
+  margin: 0rem 1rem;
+}
+
+.heading1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+.heading2 {
+  color: white;
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+.para1 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 13px;
+  font-weight: 500;
+}
+.para2 {
+  font-size: 13px;
+  color: white;
+  opacity: 0.7;
+  line-height: 1.2;
+}
+
+.first {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  background-color: #7541c8;
+}
+
+.second {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  background-color: #48556a;
+}
+.third {
+  grid-row: 1/3;
+  grid-column: 4/5;
+  background-color: white;
+}
+.forth {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: #ffffff;
+}
+.fifth {
+  grid-row: 2/3;
+  grid-column: 2/4;
+  background-color: #19212e;
+}
+
+.third .heading1 {
+  color: #48556a;
+}
+.third .heading2 {
+  color: #48556a;
+  opacity: 0.5;
+}
+.third .para1 {
+  color: #48556a;
+}
+.third .para2 {
+  color: #48556a;
+  opacity: 0.7;
+  line-height: 1.2rem;
+}
+.forth .heading1 {
+  color: #48556a;
+}
+.forth .heading2 {
+  color: #48556a;
+  opacity: 0.5;
+}
+.forth .para1 {
+  color: #48556a;
+}
+.forth .para2 {
+  color: #48556a;
+  opacity: 0.7;
+}
